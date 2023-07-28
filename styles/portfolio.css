@@ -101,12 +101,14 @@ font-weight: 400;
         border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+gap: 24px;
        
               }
        section{
         margin: 0 200px;
        }
        .what-i-do{
+        margin-top: 130px;
         text-align: center;
         font-size: 35px;
         font-weight: 700;
@@ -135,18 +137,66 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
         font-size: 16px;
         font-weight: 400;
        }
-       .summery{
+       /* resume*/
+       .resume-content{
         display: flex;
-        justify-content: space-around;
-  
+        gap: 24px;
+        background: var(--white-color, #FFF);
        }
-       .summery-1{
-        text-align: center;
+       .resume.title-1{
+        color: var(--dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+
        }
-       .summery-2{
+       .resume.sub-title-1{
+        color: var(--dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+       }
+       .resume.descripsion-2{
+        color: var(--dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+       }
+       .resume-itme{
+        margin-top: 30px;
+        margin-bottom: 30px;
+       }
+       .resume-btn{
+          margin-top: 30px;
+          text-align: center;
+       }
+       /* Connect */
+       .Connect{
+        margin-top: 30px;
+       }
+       .Connect-us{
         display: flex;
-       
-       
+        gap: 100px;
+        background-color: #FFF8F3;
+        padding: 130px 200px;
        }
-       
+      
+       .Connect input,textarea{
+        margin-bottom: 24Px;
+        border: 0;
+        width: 100%;
+       }
+       input{
+        height: 64px;
+             }
+    .connect-title{
+      color: var(--dark-01, #181818);
+      font-size: 35px;
+      font-weight: 700;
+    }
+         
+    .connect-des{
+      color: var(--dark-02, #474747);
+font-size: 16px;
+font-weight: 400;
+    }
        
